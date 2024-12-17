@@ -1,7 +1,7 @@
 import mysql.connector
 from datetime import datetime
 
-class StudentManagementSystemCLI:
+class SchoolManagementSystemCLI:
     def __init__(self):
         # Connect to the database
         try:
@@ -208,5 +208,5 @@ class StudentManagementSystemCLI:
         self.show_operations()
 
 if __name__ == "__main__":
-    app = StudentManagementSystemCLI()
+    app = SchoolManagementSystemCLI()
     app.run()

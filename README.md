@@ -1,8 +1,8 @@
-# <p font-size="2rem" align='center'>Student Management System CLI</p>
+# <p font-size="2rem" align='center'>School Management System CLI</p>
 
 ## Overview
 
-The Student Management System CLI is a Python-based Command-Line Interface (CLI) application that facilitates the management of student and teacher records in a MySQL database. It allows users to perform CRUD (Create, Read, Update, Delete) operations on records, categorized by user roles such as Admin, Teacher, and Student, with varying access permissions. Operations performed are logged into a database table for tracking purposes.
+The School Management System CLI is a Python-based Command-Line Interface (CLI) application that facilitates the management of student and teacher records in a MySQL database. It allows users to perform CRUD (Create, Read, Update, Delete) operations on records, categorized by user roles such as Admin, Teacher, and Student, with varying access permissions. Operations performed are logged into a database table for tracking purposes.
 
 ## Features
 
@@ -39,4 +39,6 @@ All operations are logged into the operation_logs table with details such as ope
 - Insert the data into the tables.
 - Refer to the **database_setup.sql** file for the commands.
 - Ensure that the database credentials in the code (host, user, password, and database) match your MySQL setup.
-- Execute the Python script: <code>python student_management_system.py</code>
+- Execute the Python script: <code>python school_management_system.py</code>
+
+### 🤝🤝 _Looking forward to collaborating to make the project user-friendly, adding more functionalities, and developing the Graphical User Interface (GUI) for the project._
